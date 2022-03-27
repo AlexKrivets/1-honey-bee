@@ -1,0 +1,213 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	background: #ffffff;
+	font-family: 'Kodchasan', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 600;
+	/* line-height: 160px; */
+	color: rgba(0, 0, 0, 0.7);
+}
+.container {
+	max-width: 1530px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 29px;
+	margin-bottom: 30px;
+}
+.navigation {
+	display: flex;
+	list-style: none;
+}
+.navigation a {
+	text-decoration: none;
+	color: black;
+	margin-left: 42px;
+}
+.background {
+	box-sizing: border-box;
+	display: flex;
+	width: 1500px;
+	height: 865px;
+	background-image: url('../img/back.png');
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.finger_text {
+	font-size: 100px;
+	line-height: 130px;
+	margin-top: 162px;
+	margin-left: 78px;
+}
+.finger_main {
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	min-width: 700px;
+	width: 1200px;
+	height: 700px;
+}
+
+.honey {
+	display: flex;
+	width: 600px;
+	height: 600px;
+	margin-top: 124px;
+	margin-right: 10px;
+}
+.button {
+	display: flex;
+	list-style: none;
+}
+
+button {
+	width: 240px;
+	height: 60px;
+	border: 1px solid black;
+}
+.our {
+	max-width: 1530px;
+	font-size: 45px;
+	line-height: 160%;
+	/* margin: 0 auto; */
+	padding-top: 50px;
+	padding-left: 227px;
+	/* margin-left: 22%;
+	margin-top: 5%; */
+}
+.brands {
+	display: flex;
+	max-width: 1530px;
+	width: 1530px;
+	padding: 30px 227px;
+	justify-content: space-between;
+}
+.honey_centr {
+	max-width: 1530px;
+	display: flex;
+}
+.honey_img {
+	max-width: 1530px;
+	width: 868px;
+	height: 785px;
+	margin-left: 60px;
+	background-image: url('../img/fon.honey.centr.svg');
+	/* background: url('../img/fon.honey.centr.svg') no-repeat fixed top left,
+		url('../img/bee.honey.centr.png') no-repeat fixed top left,
+		url('../img/oil.honey.centr.png') no-repeat fixed top left; */
+}
+.created {
+	font-family: 'Kodchasan', sans-serif;
+	font-size: 45px;
+	font-style: bold;
+	font-weight: 600;
+	line-height: 145%;
+}
+.created_mix {
+	font-family: 'Kodchasan';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 160%;
+
+	padding-top: 30px;
+}
+.honey_text {
+	display: flex;
+	align-items: center;
+	max-width: 1530px;
+	width: 575px;
+	padding: 10px;
+	margin-top: 20px;
+
+	/* height: 640px; */
+}
+.honey_centr {
+	display: flex;
+	margin: 20px 10px;
+}
+.learn_more {
+	margin-top: 50px;
+	width: 184px;
+	height: 59px;
+	background-color: rgba(229, 131, 17, 1);
+	/* border: 1px solid black; */
+	text-align: center;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 15px 23px;
+}
+.learn_more a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+/* .text2 {
+	width: 587px;
+	height: 374px;
+} */
+.flex {
+	flex-direction: row-reverse;
+	margin-top: 40px;
+}
+.our_product {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1530px;
+	width: 1146px;
+	/* height: 427px; */
+	margin-bottom: 50px;
+}
+.our_product p {
+	font-family: 'Kodchasan', sans-serif;
+	/* font-size: 45px; */
+	font-style: bold;
+	font-weight: 600;
+	line-height: 145%;
+}
+.our_product a {
+	font-size: 18px;
+	color: rgba(229, 131, 17, 1);
+	padding-top: 30px;
+}
+.eucalyptus {
+	display: flex;
+	background: rgb(241, 230, 218);
+
+	flex-direction: column;
+	align-items: flex-start;
+}
+.euc {
+	font-family: 'Kodchasan';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 140%;
+	padding: 10px 30px;
+}
+.euc_mix {
+	font-family: 'Kodchasan';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 160%;
+}
+.euc_link {
+	border: 1.5px solid #e58211;
+	box-sizing: border-box;
+}
+.euc_flex {
+	display: flex;
+	background: rgb(241, 230, 218);
+	width: 558px;
+	height: 305px;
+}
