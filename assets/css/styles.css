@@ -34,180 +34,186 @@ html {
 	margin-left: 42px;
 }
 .background {
-	box-sizing: border-box;
 	display: flex;
-	width: 1500px;
-	height: 865px;
-	background-image: url('../img/back.png');
-	margin: 0 auto;
-	padding: 0 15px;
+	background-image: url('../img/Background.jpg');
 }
 .finger_text {
 	font-size: 100px;
 	line-height: 130px;
-	margin-top: 162px;
-	margin-left: 78px;
 }
 .finger_main {
 	display: flex;
-	box-sizing: border-box;
 	flex-direction: column;
-	min-width: 700px;
-	width: 1200px;
-	height: 700px;
+	padding-top: 162px;
+	padding-left: 78px;
 }
-
 .honey {
-	display: flex;
-	width: 600px;
-	height: 600px;
-	margin-top: 124px;
-	margin-right: 10px;
+	height: 860px;
+	padding-top: 124px;
 }
 .button {
 	display: flex;
-	list-style: none;
+	justify-content: space-between;
+	max-width: 420px;
+	padding-top: 106px;
 }
-
-button {
-	width: 240px;
-	height: 60px;
+.but_learn {
+	padding: 18px 50px;
+	font-size: 18px;
+	line-height: 160%;
 	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+}
+.but_buy {
+	padding: 18px 50px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 160%;
+	color: #ffffff;
+	background-color: black;
 }
 .our {
-	max-width: 1530px;
 	font-size: 45px;
 	line-height: 160%;
-	/* margin: 0 auto; */
-	padding-top: 50px;
-	padding-left: 227px;
-	/* margin-left: 22%;
-	margin-top: 5%; */
+	max-width: 1150px;
+	margin: 0 auto;
+	margin-top: 130px;
 }
 .brands {
 	display: flex;
-	max-width: 1530px;
-	width: 1530px;
-	padding: 30px 227px;
 	justify-content: space-between;
+	max-width: 1150px;
+	margin: 0 auto;
+	margin-top: 53px;
 }
-.honey_centr {
-	max-width: 1530px;
+.section_honey {
 	display: flex;
+	margin-top: 130px;
 }
-.honey_img {
-	max-width: 1530px;
-	width: 868px;
-	height: 785px;
-	margin-left: 60px;
-	background-image: url('../img/fon.honey.centr.svg');
-	/* background: url('../img/fon.honey.centr.svg') no-repeat fixed top left,
-		url('../img/bee.honey.centr.png') no-repeat fixed top left,
-		url('../img/oil.honey.centr.png') no-repeat fixed top left; */
-}
-.created {
-	font-family: 'Kodchasan', sans-serif;
+.section_honey h2 {
 	font-size: 45px;
-	font-style: bold;
-	font-weight: 600;
 	line-height: 145%;
+	margin-bottom: 30px;
+	padding-right: 70px;
 }
-.created_mix {
-	font-family: 'Kodchasan';
-	font-style: normal;
+.section_honey p {
 	font-weight: 600;
 	font-size: 22px;
 	line-height: 160%;
-
-	padding-top: 30px;
+	margin-bottom: 50px;
+	padding-right: 70px;
 }
-.honey_text {
-	display: flex;
-	align-items: center;
-	max-width: 1530px;
-	width: 575px;
-	padding: 10px;
-	margin-top: 20px;
-
-	/* height: 640px; */
-}
-.honey_centr {
-	display: flex;
-	margin: 20px 10px;
-}
-.learn_more {
-	margin-top: 50px;
-	width: 184px;
-	height: 59px;
-	background-color: rgba(229, 131, 17, 1);
-	/* border: 1px solid black; */
-	text-align: center;
-	flex-direction: row;
-	align-items: flex-start;
-	padding: 15px 23px;
-}
-.learn_more a {
+.learn {
+	padding: 15px 40px;
 	text-decoration: none;
-	text-align: center;
-	color: white;
+	background: rgba(229, 131, 17, 1);
+	color: #ffffff;
 }
-/* .text2 {
-	width: 587px;
-	height: 374px;
-} */
-.flex {
+
+.nature {
+	display: inline;
+	margin-top: 13%;
+	margin-left: 33px;
+}
+.reverse {
+	display: flex;
 	flex-direction: row-reverse;
-	margin-top: 40px;
+	margin-top: 102px;
 }
-.our_product {
+.reverse .nature {
+	margin-left: 20px;
+}
+.product {
 	display: flex;
 	justify-content: space-between;
-	max-width: 1530px;
-	width: 1146px;
-	/* height: 427px; */
+	align-items: baseline;
+
+	max-width: 1150px;
+	margin: 0 auto;
 	margin-bottom: 50px;
 }
-.our_product p {
-	font-family: 'Kodchasan', sans-serif;
-	/* font-size: 45px; */
-	font-style: bold;
-	font-weight: 600;
-	line-height: 145%;
-}
-.our_product a {
-	font-size: 18px;
-	color: rgba(229, 131, 17, 1);
-	padding-top: 30px;
-}
-.eucalyptus {
+.link_product {
 	display: flex;
-	background: rgb(241, 230, 218);
+	align-items: flex-end;
 
-	flex-direction: column;
-	align-items: flex-start;
+	font-size: 18px;
+	line-height: 160%;
+	color: rgba(229, 130, 17, 1);
 }
-.euc {
-	font-family: 'Kodchasan';
-	font-style: normal;
-	font-weight: 600;
+
+.buy_menu {
+	display: flex;
+	max-width: 1150px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 30px;
+}
+.text h2 {
 	font-size: 28px;
 	line-height: 140%;
-	padding: 10px 30px;
 }
-.euc_mix {
-	font-family: 'Kodchasan';
-	font-style: normal;
-	font-weight: 600;
+.text p {
 	font-size: 16px;
 	line-height: 160%;
 }
-.euc_link {
-	border: 1.5px solid #e58211;
-	box-sizing: border-box;
-}
-.euc_flex {
+
+.buy_menu_euc {
 	display: flex;
-	background: rgb(241, 230, 218);
-	width: 558px;
-	height: 305px;
+	flex-direction: row;
+	background-color: antiquewhite;
+	max-width: 560px;
+	margin-bottom: 130px;
+	padding-bottom: 36px;
+}
+.buy_now {
+	border: 1px solid rgba(229, 130, 17, 1);
+	background-color: antiquewhite;
+	color: rgba(229, 130, 17, 1);
+	padding: 20px 40px;
+	text-decoration: none;
+}
+.kart {
+	padding: 40px 40px 40px 0;
+}
+.bass_kart {
+	display: flex;
+}
+footer {
+	background-image: url('../img/foot_logo_gogl_app/font.jpg');
+	display: flex;
+	max-width: 1530px;
+	min-height: 137px;
+}
+.all_foot {
+	display: flex;
+	margin: 0 auto;
+	min-width: 1150px;
+	justify-content: space-between;
+	align-items: center;
+}
+.foot_company {
+	display: flex;
+	width: 190px;
+	justify-content: space-between;
+	margin-left: 88px;
+}
+.foot_add {
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+	margin-left: 174px;
+}
+.foot_text {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 160%;
+	max-width: 270px;
+	margin-left: 50px;
 }
