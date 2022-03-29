@@ -64,6 +64,7 @@ html {
 	border: 1px solid black;
 	text-decoration: none;
 	color: black;
+	cursor: pointer;
 }
 .but_buy {
 	padding: 18px 50px;
@@ -72,6 +73,7 @@ html {
 	line-height: 160%;
 	color: #ffffff;
 	background-color: black;
+	cursor: pointer;
 }
 .our {
 	font-size: 45px;
